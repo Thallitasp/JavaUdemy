@@ -15,11 +15,12 @@ public class ProductOO {
 		
 		System.out.println("Enter product data:");
 		System.out.println("Product Name: ");
-		product.Name = sc.nextLine();
+		product.name = sc.nextLine();
 		System.out.println("Product Price: ");
-		product.Price = sc.nextDouble();
+		product.price = sc.nextDouble();
 		System.out.println("Product Quantity: ");
-		product.Quantity = sc.nextInt();
+		product.quantity = sc.nextInt();
+		System.out.println();
 		
 		/*
 		 * System.out.println(product.Name + ", " + product.Price + ", " +
@@ -42,7 +43,7 @@ public class ProductOO {
 		System.out.println("Product data:");
 		System.out.println(product);
 		
-		System.out.print("Enter the number of products to be added in stock");
+		System.out.print("Enter the number of products to be added in stock: ");
 		int sum = sc.nextInt();
 		product.AddProducts(sum);
 		
@@ -50,9 +51,9 @@ public class ProductOO {
 		System.out.print("Update Data:");
 		System.out.println(product);
 		
-		System.out.print("Enter the number of products to be removed in stock");
+		System.out.print("Enter the number of products to be removed in stock: ");
 		int dim = sc.nextInt();
-		product.AddProducts(dim);
+		product.RemoveProducts(dim);
 		
 		System.out.println();
 		System.out.print("Update Data:");

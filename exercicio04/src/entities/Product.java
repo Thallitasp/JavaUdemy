@@ -2,28 +2,28 @@ package entities;
 
 public class Product {
 
-	public String Name;
-	public double Price;
-	public int Quantity;
+	public String name;
+	public double price;
+	public int quantity;
 	
 	public double totalValueInStock(){
-		return Price * Quantity;
+		return price * quantity;
 	}
 	
 	public void AddProducts(int quant) {
-		Quantity += quant;
+		quantity += quant;
 	}
 	
 	public void RemoveProducts(int diminuir) {
-		Quantity -= diminuir;
+		quantity -= diminuir;
 	}
 	
 	public String toString() {
-		return Name
+		return name
 			+ ", $ "
-			+ String.format("%.2f", Price)
+			+ String.format("%.2f", price)
 			+ ", "
-			+ Quantity
+			+ quantity
 			+ " units, Total: $ "
 			+ String.format("%.2f", totalValueInStock());
 	}

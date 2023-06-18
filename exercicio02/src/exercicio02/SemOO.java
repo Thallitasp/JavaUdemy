@@ -37,6 +37,8 @@ public class SemOO {
 		else {
 			System.out.printf("Larger area: Y");
 		}
+		
+		sc.close();
 	}
 
 }

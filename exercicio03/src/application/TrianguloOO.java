@@ -13,7 +13,7 @@ public class TrianguloOO {
 		Scanner sc = new Scanner(System.in);
 		
 		Triangle x, y;
-		x = new Triangle();
+		x = new Triangle(); //instancia um objeto
 		y = new Triangle();
 		
 		System.out.println("Enter the measures of triangle X:");
@@ -38,5 +38,7 @@ public class TrianguloOO {
 		else {
 			System.out.printf("Larger area: Y");
 		}
+		
+		sc.close();
 	}
 }

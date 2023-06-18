@@ -7,9 +7,9 @@ public class Main {
 		System.out.println("Bom dia");
 		
 		String nome = "Thallita";
-		double renda = 1189.84;
+		double renda = 4000;
 		
-		int idade = 23;
+		int idade = 26;
 		System.out.println(idade);
 		
 		double sal = 12.54654;
