@@ -1,9 +1,9 @@
-package application;
+package exercicio06.src.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Employee;
+import exercicio06.src.entities.Employee;
 
 public class EmployeeOO {
 

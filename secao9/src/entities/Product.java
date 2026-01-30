@@ -1,4 +1,4 @@
-package entities;
+package secao9.src.entities;
 
 public class Product {
 
@@ -6,7 +6,7 @@ public class Product {
 	private double price;
 	private int quantity;
 	
-	//construtor padrão
+	//construtor padrï¿½o
 	public Product() {	}
 	
 	//construtor obriga a preencher todos os dados

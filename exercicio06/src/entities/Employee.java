@@ -1,4 +1,4 @@
-package entities;
+package exercicio06.src.entities;
 
 public class Employee {
 	

@@ -1,4 +1,4 @@
-package application;
+package secao10.src.application;
 
 import java.util.Locale;
 import java.util.Scanner;

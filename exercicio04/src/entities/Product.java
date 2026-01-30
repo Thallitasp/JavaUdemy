@@ -1,12 +1,21 @@
-package entities;
+package exercicio04.src.entities;
 
 public class Product {
 
 	public String name;
 	public double price;
 	public int quantity;
-	
-	public double totalValueInStock(){
+
+    public Product(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    public Product() {
+
+    }
+
+    public double totalValueInStock(){
 		return price * quantity;
 	}
 	

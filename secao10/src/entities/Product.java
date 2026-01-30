@@ -1,4 +1,4 @@
-package entities;
+package secao10.src.entities;
 
 public class Product {
 	

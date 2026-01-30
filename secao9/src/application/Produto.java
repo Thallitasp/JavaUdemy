@@ -1,9 +1,9 @@
-package application;
+package secao9.src.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Product;
+import secao9.src.entities.Product;
 
 public class Produto {
 public static void main(String[] args) {
