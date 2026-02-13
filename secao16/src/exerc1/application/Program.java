@@ -22,8 +22,10 @@ public class Program {
         System.out.println("Entre com os dados do aluguel");
         System.out.print("Modelo do carro: ");
         String carModel = sc.nextLine();
+
         System.out.print("Retirada (dd/MM/yyyy HH:mm): ");
         LocalDateTime start = LocalDateTime.parse(sc.nextLine(), fmt);
+
         System.out.print("Retorno (dd/MM/yyyy HH:mm): ");
         LocalDateTime finish = LocalDateTime.parse(sc.nextLine(), fmt);
 
@@ -31,6 +33,7 @@ public class Program {
 
         System.out.print("Entre com o preço por hora: ");
         double pricePerHour = sc.nextDouble();
+        
         System.out.print("Entre com o preço por dia: ");
         double pricePerDay = sc.nextDouble();
 
