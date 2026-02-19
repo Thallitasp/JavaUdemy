@@ -26,13 +26,18 @@ public class Program {
 
         for (int i=1; i<=n; i++) {
             System.out.println("Datos do produto #" + i + ":");
+
             System.out.print("Comum, usado, importado (c/u/i)? ");
+
             char type = sc.next().charAt(0);
             System.out.print("Nome: ");
             sc.nextLine();
+
             String name = sc.nextLine();
+
             System.out.print("Preco: ");
             double price = sc.nextDouble();
+
             if (type == 'c') {
                 list.add(new Product(name, price));
             }
@@ -50,6 +55,7 @@ public class Program {
 
         System.out.println();
         System.out.println("ETIQUETAS DE PRECO:");
+
         for (Product prod : list) {
             System.out.println(prod.priceTag());
         }
