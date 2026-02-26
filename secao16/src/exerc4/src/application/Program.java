@@ -14,6 +14,7 @@ public class Program {
 
         System.out.print("Amount: ");
         double amount = sc.nextDouble();
+
         System.out.print("Months: ");
         int months = sc.nextInt();
 
