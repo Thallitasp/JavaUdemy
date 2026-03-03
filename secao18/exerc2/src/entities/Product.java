@@ -1,4 +1,4 @@
-package secao18.exerc1.src.entities;
+package secao18.exerc2.src.entities;
 
 import java.util.Objects;
 
