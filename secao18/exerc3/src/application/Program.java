@@ -22,6 +22,8 @@ public class Program {
         double min = 100.0;
 
         list.removeIf(p -> p.getPrice() >= min);
+        //list.removeIf(Product::staticProductPredicate);
+        //list.removeIf(Product::nonStaticProductPredicate);
 
         for (Product p : list) {
             System.out.println(p);
